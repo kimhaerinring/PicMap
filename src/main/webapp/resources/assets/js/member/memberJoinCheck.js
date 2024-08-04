@@ -16,9 +16,17 @@ const memberName = document.getElementById("memberName");
 const memberNickName = document.getElementById("memberNickName");
 const phone = document.getElementById("memberPhone");
 const email = document.getElementById("memberEmail");
-
+const modalbtn1= document.getElementById("modalbtn1")
+const modalbtn2= document.getElementById("modalbtn2")
+const modalback = document.getElementsByClassName("modal-backdrop")
 //form tag id
 const frm = document.getElementById("frm");
+
+//modla close 
+modalbtn2.addEventListener("click",function(){
+    modalbtn1.click;
+})
+$('.modal-backdrop').last().css("z-index", "9999");
 
 //password validation div's id
 const passwordError = document.getElementById("password-error");

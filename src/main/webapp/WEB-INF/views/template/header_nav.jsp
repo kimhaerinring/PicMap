@@ -72,7 +72,7 @@
 
       <div class="modal-header mb-5" >
         <h5 class="fs-1 text-center" style="width:1000px;height:px;">로그인</h5>
-        <button type="button" class="btn-close " data-bs-dismiss="modal"  aria-label="Close" ></button>
+        <button type="button" id="modalbtn1" class="btn-close " data-bs-dismiss="modal"  aria-label="Close" ></button>
       </div>
 
 
@@ -121,7 +121,7 @@
 
       <div class="modal-header mb-5" >
         <h5 class="fs-1 text-center" style="width:1000px;height:px;">회원가입</h5>
-        <button type="button" class="btn-close " data-bs-dismiss="modal"  aria-label="Close"></button>
+        <button type="button" id="modalbtn2" class="btn-close " data-bs-dismiss="modal"  aria-label="Close"></button>
       </div>
 
 
